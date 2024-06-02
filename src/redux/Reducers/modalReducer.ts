@@ -1,5 +1,5 @@
-// reducers/modalReducer.ts
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSelector, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { RootState } from "../store";
 
 interface ModalState {
   isOpen: boolean;
@@ -18,6 +18,10 @@ const modalSlice = createSlice({
     },
   },
 });
+
+const selector = (state: RootState) => state.modal;
+
+export const isModalOpened = createSelector(selector, (s) => s.isOpen);
 
 export const { updateOpenModal } = modalSlice.actions;
 export default modalSlice.reducer;
