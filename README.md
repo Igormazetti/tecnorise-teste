@@ -1,6 +1,6 @@
 # Teste Tecnorise
 
-Este projeto é constituído por uma página feita com Typescript, React e GraphQl, para consumir dados dos repositórios do github, e apresentar uma tabela ao usuário com as informações dos repositórios, permitindo a busca pelo nome do repositório, avançar e voltar páginas.
+Este projeto é constituído por uma página feita com Typescript, React e GraphQl, para consumir dados dos repositórios do github, e apresentar uma tabela ao usuário com as informações dos repositórios, permitindo a busca pelo nome do repositório, avançar e voltar páginas. Ao clicar em um repositório, é aberto um modal com os detalhes daquele repositório.
 
 ## Requisitos para rodar o projeto
 
