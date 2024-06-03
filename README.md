@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Teste Tecnorise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é constituído por uma página feita com Typescript, React e GraphQl, para consumir dados dos repositórios do github, e apresentar uma tabela ao usuário com as informações dos repositórios, permitindo a busca pelo nome do repositório, avançar e voltar páginas.
 
-Currently, two official plugins are available:
+## Requisitos para rodar o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Node LTS](https://nodejs.org/en)
+  - Usando [`nvm`](https://github.com/nvm-sh/nvm)
+    - `nvm install`
+    - `nvm use`
+- [Yarn 1.x](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) (Opcional)
 
-## Expanding the ESLint configuration
+### Como rodar na minha máquina?
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Clone o projeto `git clone https://github.com/Igormazetti/tecnorise-teste.git`
+- Ou clone o projeto com SSH `git@github.com:Igormazetti/tecnorise-teste.git`
+- Crie uma pasta .env com a variável REACT_APP_GITHUB_TOKEN, com o valor do token gerado no github(https://medium.com/@mbohlip/how-to-generate-a-classic-personal-access-token-in-github-04985b5432c7).
+- Rode `yarn` ou `npm i` para instalar os pacotes do projeto.
+- Rode `yarn dev` ou `npm run dev`
+- Pronto 🎉
