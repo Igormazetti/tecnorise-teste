@@ -14,7 +14,7 @@ Este projeto é constituído por uma página feita com Typescript, React e Graph
 
 - Clone o projeto `git clone https://github.com/Igormazetti/tecnorise-teste.git`
 - Ou clone o projeto com SSH `git@github.com:Igormazetti/tecnorise-teste.git`
-- Crie uma pasta .env com a variável REACT_APP_GITHUB_TOKEN, com o valor do token gerado no github(https://medium.com/@mbohlip/how-to-generate-a-classic-personal-access-token-in-github-04985b5432c7).
+- Crie uma pasta .env com a variável REACT_APP_GITHUB_TOKEN, com o valor do token gerado no [Github](https://medium.com/@mbohlip/how-to-generate-a-classic-personal-access-token-in-github-04985b5432c7).
 - Rode `yarn` ou `npm i` para instalar os pacotes do projeto.
 - Rode `yarn dev` ou `npm run dev`
 - Pronto 🎉
